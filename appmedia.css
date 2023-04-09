@@ -1,0 +1,372 @@
+@media all and (min-width: 300px) and (max-width:780px){
+
+    /* header */
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        height: 55px;
+        background: -webkit-linear-gradient(
+            315deg, #FF5C5C, #42C2EA);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .header-middle{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* main */
+    .main-middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-middle-1 {
+        align-items: flex-start;
+    }
+
+    .main-phone{
+        width: 250px;
+        height: 55%;
+    }
+
+    .newapp{
+        font-size: 50px;
+    }
+
+    .inno{
+        text-align: center;
+    }
+
+    .elegant{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .but{
+        width: 125px;
+        height: 40px;        
+    }
+
+    .view-button{
+        border: none;
+    }
+    /* aside */
+
+    aside{
+        height: auto;
+        background-image: url(image/left\ part.png);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: left bottom;
+    }
+    
+
+    .aside-text-title{
+        font-size: 36px;
+        font-weight: 200;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-bottom: 25px;
+    }
+    
+    .aside-text-text{
+        text-align: center;
+        width: auto;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .aside-text{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+    
+    .aside-device{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .dev{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    .mobile-title{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 26px;
+        margin-top: 25px;
+    }
+
+    .burger{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transition: .5s;
+        cursor: pointer;
+    }
+    
+    .mobile-text{
+        width: 70%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 10px;
+    }
+    
+    .device-btn{
+        width: 150px;
+        height: 40px;
+        margin-top: 50px;
+        background: none;
+        border: 1px solid #555555;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .burger:hover .burger-dropdown{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .button-div{
+        display: none;
+    }
+
+    /* phone part */
+
+    .phone{
+        width: 100%;
+        height: auto;
+    }
+    
+    .phone-title{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .down-phone{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left-phone{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .center-phone{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-phone{
+        width: 100%;
+        height: 100%;
+    }
+    .left-side-phone,.right-side-phone{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+
+    .your,.plenty{
+        width: 320px;
+        height: 70px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+    
+    /* phone-lie */
+
+    .teq-phone{
+        width: 80%;
+    }
+
+    /* people */
+
+    .people{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .people-info{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .person{
+        margin-bottom: 25px;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .name{
+        font-size: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        margin: 10px 0;
+    }
+
+    .about{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        width: 350px;
+        text-align: center;
+    }
+
+    /* input-part */
+
+    .input-center{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inpp{
+        /* padding-left: 45px; */
+    }
+    
+    .inpp,.go{
+        width: 350px;
+        height: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        border: none;
+        outline: none;
+    }
+
+    .go{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 16px;
+        margin-top: 15px;
+    }
+
+    .input-input{
+        height: 30%;
+    }
+
+    .dot{
+        margin: 15px 5px;
+    }
+
+    .last-p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .partphone{
+        width: 90%;
+        height: 40%;
+    }
+
+    .foot-text{
+        font-size: 24px;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    .footer-play{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .playmarket{
+        margin: 10px 0;
+    }
+
+    .aside-right{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    i{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+

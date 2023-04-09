@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+* > button{
+    cursor: pointer;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 55px;
+    background: -webkit-linear-gradient(
+        315deg, #FF5C5C, #42C2EA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-middle{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+}
+
+nav{
+    width: 50%;
+    height: 100%;
+}
+
+.button-div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-ul-a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.download{
+    width: 95px;
+    height: 30px;
+    background: none;
+    border: 1.4px solid white;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    width: 22%;
+}
+
+.brg{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+}
+
+.burger-dropdown{
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background: -webkit-linear-gradient(
+        315deg, #FF5C5C, #42C2EA);
+    top: 145%;
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+    padding: 100px;
+}
+
+.brg-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:
+    space-evenly;
+    height: 100%;
+}
+
+.brg-li{
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.brg-li:last-child{
+    margin-top: 15px;
+}
+
+/* main */
+
+
+main{
+    width: 100%;
+    height: 720px;
+    background: -webkit-linear-gradient(
+        315deg, #FF5C5C, #42C2EA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lines{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/white\ lines.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.main-middle{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: absolute;
+}
+
+.main-middle-part{
+    width: 50%;
+    height: 100%;
+}
+
+.main-middle-2,.main-middle-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-middle-1{
+    align-items: center;
+}
+
+.main-middle-text{
+    width: 650px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.newapp{
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    white-space: nowrap;
+    letter-spacing: -3px;
+}
+
+.new{
+    font-weight: bolder;
+}
+
+.elegant{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.but{
+    width: 135px;
+    height: 45px;
+    border: 1px solid #EEEEEE;
+    background: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.app-button{
+    cursor: pointer;
+}
+
+.main-phone{
+    position: absolute;
+    z-index: 5;
+}
+
+.view-button{
+    border: none;
+}
+
+.white-lines{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+}
+
+/* aside */
+
+aside{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/left\ part.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left;
+}
+
+.aside-middle{
+    width: 80%;
+    height: 90%;
+}
+
+.aside-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-text-title{
+    font-size: 36px;
+    font-weight: 200;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 25px;
+}
+
+.aside-text-text{
+    text-align: center;
+    width: 35%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aside-device{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dev{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.mobile-text{
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.device-btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    background: none;
+    border: 1px solid #555555;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* phone */
+
+.phone{
+    width: 100%;
+    height: 1100px;
+}
+
+.phone-title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-phone{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-phone{
+    width: 35%;
+    height: 100%;
+}
+
+.center-phone{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-phone{
+    width: 35%;
+    height: 100%;
+}
+
+.newf{
+    font-size: 36px;
+    font-weight: 200;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.inno{
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.left-side-phone,.right-side-phone{
+    width: 100%;
+    height: 50%;
+}
+
+.left-side-phone,.right-side-phone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.right-side-phone{
+    align-items: flex-start;
+}
+
+.your,.plenty{
+    width: 320px;
+    height: 70px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.plenty{
+    text-align: left;
+}
+
+.respons,.great{
+    margin: 20px 0;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.discover{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+}
+
+/* phone-lie */
+
+.phone-lie{
+    width: 100%;
+    height: 700px;
+    background-image: url(image/colorful\ lines.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-lie-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-lie-phone{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-lie-text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-inno{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.inour{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 550px;
+    height: 95px;
+    text-align: center;
+}
+
+/* people */
+
+.people{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.people-title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatpeople{
+    font-size: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.dotes{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.sev{
+    background-color: black;
+}
+
+.sev:hover{
+    background-color: #fff;
+}
+
+.dot:last-child:hover{
+    background-color: black;
+}
+
+.people-info{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 230px;
+    height: 70px;
+    text-align: center;
+}
+
+/* input-part */
+
+.input-part{
+    width: 100%;
+    height: 450px;
+    background-image: url(image/asd.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp{
+    z-index: 5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.input-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weare{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 520px;
+}
+
+.newsletter{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.input-center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpp{
+    padding-left: 15px;
+}
+
+.inpp,.go{
+    width: 440px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.go{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+}
+
+.mark{
+    width: 25px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-text{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-down{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.foot-text{
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.footer-play{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playmarket{
+    margin: 0 10px;
+}
+
+.footer-phone{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-aside{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}   
+
+.last-p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.aside-center{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+i{
+    font-size: 22px;
+    margin-right: 10px;
+}
